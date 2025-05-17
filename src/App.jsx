@@ -45,8 +45,10 @@ import EditItemForm      from './admin/EditItemForm';
 function App() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isCartOpen, setCartOpen]       = useState(false);
+  
 
   return (
+    
     <AuthProvider>
       <CartProvider>
         <BrowserRouter>
