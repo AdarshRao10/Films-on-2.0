@@ -1,0 +1,112 @@
+.account-container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.account-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1e516d;
+}
+
+.account-section {
+  margin-bottom: 2.5rem;
+}
+
+.account-section h3 {
+  color: #1e516d;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.account-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-section label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.account-section label span {
+  margin-bottom: 0.5rem;
+}
+
+.account-section input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.account-section input:focus {
+  border-color: #1e516d;
+  outline: none;
+}
+
+.account-section button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: #1e516d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.account-section button:hover {
+  background-color: #17425a;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .account-container {
+    padding: 1rem;
+    margin: 2rem 1rem;
+  }
+}
+
+.account-links button {
+  background: none;
+  border: none;
+  color: #1e516d;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* 👈 adds space between icon & text */
+}
+
+.account-links button:hover {
+  color: #17425a;
+}
+
+.account-icon {
+  font-size: 1.3rem;
+}
+
+.account-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.back-icon {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}

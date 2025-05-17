@@ -1,0 +1,21 @@
+.customer-auth-links {
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+  
+  .auth-link {
+    color: var(--navbar-text, #f5f5f5);
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-weight: 500;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  
+  .auth-separator {
+    color: var(--navbar-text, #f5f5f5);
+    opacity: 0.6;
+  }
+  

@@ -1,0 +1,21 @@
+/* thumbnail size */
+.poster-thumb {
+    width: 60px;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  /* if no image */
+  .no-image {
+    color: #888;
+  }
+  
+  /* truncate description cell */
+  .description-cell {
+    max-width: 200px;      /* adjust as you like */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

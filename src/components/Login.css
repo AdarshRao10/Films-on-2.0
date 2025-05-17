@@ -1,0 +1,124 @@
+/* src/components/Login.css */
+
+.login-container {
+    max-width: 400px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #1e516d;
+  }
+  
+  .login-container p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .login-container a {
+    color: #1e516d;
+    text-decoration: underline;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .login-container input {
+    padding: 0.6rem 0.8rem;
+    margin: 0.5rem 0 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login-container input:focus {
+    border-color: #1e516d;
+    outline: none;
+  }
+  
+  .login-container button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: #1e516d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container button:hover {
+    background-color: #17425a;
+  }
+  
+  .login-container button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .login-container .error {
+    color: red;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Responsive */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 1rem;
+      margin: 2rem 1rem;
+    }
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ✅ Center-align everything horizontally */
+  }
+  
+  .register-container label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .register-container label span {
+    min-width: 120px; /* ✅ Make the label take up fixed width */
+    text-align: left;
+  }
+  
+  .register-container input {
+    flex: 1;
+    min-width: 200px; /* ✅ Ensure the input always stays a good width */
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  

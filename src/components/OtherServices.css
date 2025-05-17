@@ -1,0 +1,60 @@
+.other-services-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.other-services-container h1 {
+  margin-bottom: 1rem;
+  color: #1e516d;
+}
+
+.other-services-container p {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.service-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.service-list li {
+  padding: 8px 0;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.cta-box {
+  background: #f0f8ff;
+  padding: 20px;
+  border: 1px solid #cce;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-request-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #1e516d;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.service-request-button:hover {
+  background: #163b4f;
+}
+
+.note {
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
+}

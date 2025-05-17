@@ -1,0 +1,62 @@
+.service-request-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .service-request-container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #1e516d;
+  }
+  
+  .service-request-form label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  
+  .service-request-form input,
+  .service-request-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .service-request-form textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 1rem;
+    background-color: #1e516d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #163b4f;
+  }
+  
+  .success-message {
+    padding: 20px;
+    background: #e6ffed;
+    border: 1px solid #b2f5c9;
+    color: #2f855a;
+    border-radius: 6px;
+    text-align: center;
+  }
+  

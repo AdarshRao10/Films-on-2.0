@@ -1,0 +1,74 @@
+.edit-form-container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .edit-form-container h2 {
+    margin-bottom: 1rem;
+    color: #1e516d;
+  }
+  
+  .error-text {
+    color: #b00020;
+    margin-bottom: 1rem;
+  }
+  
+  .edit-form .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .edit-form .form-row label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .edit-form .form-row input,
+  .edit-form .form-row textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .poster-preview {
+    margin-top: 0.5rem;
+    max-width: 200px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .btn {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #1e516d;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+  
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  

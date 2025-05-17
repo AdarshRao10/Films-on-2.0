@@ -1,0 +1,65 @@
+/* The semi-transparent overlay behind the sidebar */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  z-index: 999; /* above main content */
+}
+
+/* Show overlay when open */
+.sidebar-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* The actual drawer pinned to the left */
+.sidebar {
+  position: absolute; 
+  top: 80px;       /* below your navbar if 80px tall */
+  bottom: 50px;    /* above your footer if ~50px tall */
+  left: -240px;    /* hidden off-screen by default */
+  width: 240px;
+  background-color: #4f4f4f;
+  color: white;
+  transition: left 0.3s ease;
+  overflow-y: auto;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.2);
+}
+
+/* Slide in the drawer when open */
+.sidebar.open {
+  left: 0;
+}
+
+/* Basic list styling */
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.sidebar li:hover {
+  color: #ccc;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #666; /* dividing line */
+}
+
+/* Remove the line from the last <li> (optional) */
+.sidebar ul li:last-child {
+  border-bottom: none;
+}

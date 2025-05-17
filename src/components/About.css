@@ -1,0 +1,25 @@
+/* src/components/About.css */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .about-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .about-container ul {
+    margin-left: 20px;
+    list-style: disc;
+  }
+  
